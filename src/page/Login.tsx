@@ -11,7 +11,7 @@ const handleSignin = (formData:FormData) => {
 }
   return (
     <div className="h-screen flex flex-col items-center justify-center">
-      <h1 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900 md:text-xl lg:text-xl dark:text-white">Simple Form</h1>
+      <h1 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900 md:text-xl lg:text-xl dark:text-white">Login</h1>
       <form action={handleSignin} className="block  p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 lg:w-3/6  md:w-4/6  w-5/6 ">
         <Fragment>
           <label htmlFor="input-group-1" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Email</label>

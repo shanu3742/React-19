@@ -1,6 +1,7 @@
-import Login from './component/Login.js'
+import Login from './page/Login.js'
 import './App.css'
 import ThemeButton from './component/ThemeButton.js'
+import Register from './page/Register.js'
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <>
       <div className='w-screen h-screen bg-white dark:bg-black'>
        <ThemeButton />
-       <Login />
+       {/* <Login /> */}
+       <Register />
       </div>
     </>
   )
